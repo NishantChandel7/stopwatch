@@ -1,0 +1,51 @@
+/* Apply a flexbox layout to center content vertically and horizontally */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    /* Apply a gradient background */
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+  }
+  
+  /* Center text in the container */
+  .container {
+    text-align: center;
+  }
+  
+  /* Style for the stopwatch display */
+  #stopwatchDisplay {
+    font-size: 2em;
+    /* Add any additional styling as needed */
+  }
+  
+  /* Style for the start/stop button */
+  #startStopButton {
+    margin-top: 10px;
+  }
+  
+  #startStopButton {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  }
+  
+  /* Style for the "Start" state */
+  #startStopButton.btn-primary {
+    background-color: #28a745; /* Green color */
+    border-color: #28a745;
+    color: white;
+  }
+  
+  /* Style for the "Stop" state */
+  #startStopButton.btn-danger {
+    background-color: #dc3545; /* Red color */
+    border-color: #dc3545;
+    color: white;
+  }
+  
+
+  
